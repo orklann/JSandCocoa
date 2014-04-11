@@ -37,8 +37,6 @@
 	id data = [scriptObject evaluateWebScript:script];
 	if(![data isMemberOfClass:[WebUndefined class]]) {
 		NSLog(@"%@", data);
-    }else{
-        NSLog(@"%@", data);
     }
 }
 @end

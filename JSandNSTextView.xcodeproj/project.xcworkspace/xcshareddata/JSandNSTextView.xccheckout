@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BFE8B458-3EA3-4078-B791-9F191676252A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSandNSTextView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9BC4C5F7-AB21-4765-B455-97C59CBFB55E</key>
+		<string>https://github.com/aaron-elkins/JSandCocoa.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSandNSTextView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9BC4C5F7-AB21-4765-B455-97C59CBFB55E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aaron-elkins/JSandCocoa.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9BC4C5F7-AB21-4765-B455-97C59CBFB55E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9BC4C5F7-AB21-4765-B455-97C59CBFB55E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSandNSTextView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
