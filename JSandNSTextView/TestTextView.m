@@ -26,6 +26,11 @@
     // Drawing code here.
 }
 
+
+- (void)log:(NSString *)message{
+    NSLog(@"%@", message);
+}
+
 /* 
  * Selector with a string parameters will not be called,
  * coz NSTextView will not keep all codes ascii, so used NSTextField instead,

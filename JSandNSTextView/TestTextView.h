@@ -14,4 +14,5 @@
 }
 
 - (void)insertText:(NSString *)insertString;
+- (void)log:(NSString *)message;
 @end
