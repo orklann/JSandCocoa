@@ -26,8 +26,11 @@
     // Drawing code here.
 }
 
+- (NSString*)makeRectWithX:(int)x Y:(int)y Width:(int)w Height:(int)h{
+    return NSStringFromRect(NSMakeRect(x, y, w, h));
+}
 
-- (void)log:(NSString *)message{
+- (void)log:(NSString*)message{
     NSLog(@"%@", message);
 }
 
@@ -41,34 +44,4 @@
     NSLog(@"%@", insertString);
     [super insertText:insertString];
 }
-
-+ (NSString *)webScriptNameForSelector:(SEL)sel
-{
-    NSString *selString = NSStringFromSelector(sel);
-    NSArray *comps = [selString componentsSeparatedByString:@":"];
-
-    NSString *retSelString = @"";
-    int index = 0;
-    for (index = 0; index < [comps count]; index++) {
-        NSString *comp = [comps objectAtIndex:index];
-        if ([comp length] <= 0) continue;
-        if (index == 0) { /* skip first components, this is for cammel case */
-            
-        }else{
-            comp = [NSString stringWithFormat:@"%@%@",[[comp substringToIndex:1] uppercaseString],[comp substringFromIndex:1]];
-        }
-
-        retSelString = [retSelString stringByAppendingString:comp];
-    }
-    return retSelString;
-}
-
-+ (BOOL)isSelectorExcludedFromWebScript:(SEL)aSelector {
-    if (aSelector == nil) {
-        NSLog(@"Nil selector");
-    }
-    return NO;
-}
-+ (BOOL)isKeyExcludedFromWebScript:(const char *)name { return NO; }
-
 @end

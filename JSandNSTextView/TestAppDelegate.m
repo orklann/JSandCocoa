@@ -7,6 +7,7 @@
 //
 
 #import "TestAppDelegate.h"
+#import "JSURL.h"
 
 @implementation TestAppDelegate
 
@@ -24,7 +25,9 @@
      * We can then access turtleView in Javascript as turtle.
      * Ex: turtle.reset(); => [turtleView reset];
      */
-	[scriptObject setValue:textView forKey:@"textView"];
+	[scriptObject setValue:textView forKey:@"$"];
+    JSURL *url = [[JSURL alloc] init];
+    [scriptObject setValue:url forKey:@"URL"];
 }
 
 - (IBAction)run:(id)sender
@@ -32,6 +35,10 @@
     // wrap it in a try-catch block so that we can access errors
     NSString *code = [scriptTextView stringValue];
 	NSString* script = [NSString stringWithFormat:@"try { %@ } catch (e) { e.toString() }", code];
+    
+    Class windowClass = NSClassFromString(@"NSWindow");
+    
+    [scriptObject setValue:windowClass forKey:@"NSWindow"];
     
     // run it
 	id data = [scriptObject evaluateWebScript:script];

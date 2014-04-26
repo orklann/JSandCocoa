@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "NSObject+JSCommonHelper.h"
 
 @interface TestTextView : NSTextView
 {
@@ -14,5 +15,6 @@
 }
 
 - (void)insertText:(NSString *)insertString;
-- (void)log:(NSString *)message;
+- (void)log:(NSString*)message;
+- (NSString*)makeRectWithX:(int)x Y:(int)y Width:(int)w Height:(int)h;
 @end
