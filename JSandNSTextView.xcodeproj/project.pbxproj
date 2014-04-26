@@ -20,7 +20,7 @@
 		044D1F1718F3B6FA00C02CB5 /* JSandNSTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D1F1618F3B6FA00C02CB5 /* JSandNSTextViewTests.m */; };
 		044D1F2218F3B7A800C02CB5 /* TestTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D1F2118F3B7A800C02CB5 /* TestTextView.m */; };
 		04F00255190BCE0100F9164F /* JSURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F00254190BCE0100F9164F /* JSURL.m */; };
-		04F00258190BD0F700F9164F /* NSObject+JSCommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F00257190BD0F700F9164F /* NSObject+JSCommonHelper.m */; };
+		04F00258190BD0F700F9164F /* NSObject+JSCommonCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F00257190BD0F700F9164F /* NSObject+JSCommonCallbacks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		044D1F2118F3B7A800C02CB5 /* TestTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTextView.m; sourceTree = "<group>"; };
 		04F00253190BCE0100F9164F /* JSURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSURL.h; sourceTree = "<group>"; };
 		04F00254190BCE0100F9164F /* JSURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSURL.m; sourceTree = "<group>"; };
-		04F00256190BD0F700F9164F /* NSObject+JSCommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSCommonHelper.h"; sourceTree = "<group>"; };
-		04F00257190BD0F700F9164F /* NSObject+JSCommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSCommonHelper.m"; sourceTree = "<group>"; };
+		04F00256190BD0F700F9164F /* NSObject+JSCommonCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSCommonCallbacks.h"; sourceTree = "<group>"; };
+		04F00257190BD0F700F9164F /* NSObject+JSCommonCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSCommonCallbacks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +130,8 @@
 				044D1F2118F3B7A800C02CB5 /* TestTextView.m */,
 				04F00253190BCE0100F9164F /* JSURL.h */,
 				04F00254190BCE0100F9164F /* JSURL.m */,
-				04F00256190BD0F700F9164F /* NSObject+JSCommonHelper.h */,
-				04F00257190BD0F700F9164F /* NSObject+JSCommonHelper.m */,
+				04F00256190BD0F700F9164F /* NSObject+JSCommonCallbacks.h */,
+				04F00257190BD0F700F9164F /* NSObject+JSCommonCallbacks.m */,
 				044D1F0118F3B6FA00C02CB5 /* MainMenu.xib */,
 				044D1F0418F3B6FA00C02CB5 /* Images.xcassets */,
 				044D1EF318F3B6FA00C02CB5 /* Supporting Files */,
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044D1F0018F3B6FA00C02CB5 /* TestAppDelegate.m in Sources */,
-				04F00258190BD0F700F9164F /* NSObject+JSCommonHelper.m in Sources */,
+				04F00258190BD0F700F9164F /* NSObject+JSCommonCallbacks.m in Sources */,
 				044D1F2218F3B7A800C02CB5 /* TestTextView.m in Sources */,
 				04F00255190BCE0100F9164F /* JSURL.m in Sources */,
 				044D1EF918F3B6FA00C02CB5 /* main.m in Sources */,

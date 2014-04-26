@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 PixelEgg. All rights reserved.
 //
 
-#import "NSObject+JSCommonHelper.h"
+#import "NSObject+JSCommonCallbacks.h"
 
 @implementation NSObject (JSCommonHelpers)
 

@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "NSObject+JSCommonHelper.h"
+#import "NSObject+JSCommonCallbacks.h"
 
 @interface TestTextView : NSTextView
 {

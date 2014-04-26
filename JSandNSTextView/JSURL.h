@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+JSCommonHelper.h"
+#import "NSObject+JSCommonCallbacks.h"
 
 @interface JSURL : NSObject
 
